@@ -1,0 +1,13 @@
+
+#environment
+.venv/
+
+# cache 
+__pycache__
+
+#outputs
+build/
+dist/
+
+# files
+*.spec

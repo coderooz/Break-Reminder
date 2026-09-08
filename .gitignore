@@ -1,13 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
 
-#environment
+# Virtual environments
 .venv/
+venv/
+ENV/
 
-# cache 
-__pycache__
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-#outputs
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller build artifacts
+*.spec
+*.exe
+*.zip
+
+# Project-specific build output
 build/
 dist/
 
-# files
-*.spec
+# MCP runtime files
+.mcp-runtime.json
+docs-repo.project-mcp.json
+
+# Workspace (development artifacts - not committed)
+.workspace/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
